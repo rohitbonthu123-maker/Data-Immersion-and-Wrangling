@@ -1,0 +1,49 @@
+{
+  "shape": {
+    "rows": 2030,
+    "cols": 12
+  },
+  "missing_per_column": {
+    "order_id": 0,
+    "order_date": 0,
+    "customer_id": 0,
+    "customer_email": 88,
+    "region": 315,
+    "channel": 356,
+    "sku": 0,
+    "product_name": 0,
+    "unit_price": 0,
+    "quantity": 0,
+    "discount": 0,
+    "revenue": 56
+  },
+  "duplicate_rows": 30,
+  "duplicate_order_ids": 30,
+  "region_values_raw": {
+    "NaN": 315,
+    "West": 305,
+    "north ": 290,
+    "SOUTH": 283,
+    "East": 281,
+    "North": 279,
+    "South": 277
+  },
+  "channel_values_raw": {
+    "retail": 364,
+    "NaN": 356,
+    "Retail": 333,
+    "Partner": 328,
+    "online": 326,
+    "Online": 323
+  },
+  "negative_quantity": 41,
+  "unit_price_outliers_high": 14,
+  "unit_price_outlier_threshold": 136.03,
+  "date_format_samples": [
+    "04/25/2024",
+    "23-Nov-2024",
+    "2024-06-17",
+    "21-Jul-2024",
+    "26-May-2024"
+  ]
+}

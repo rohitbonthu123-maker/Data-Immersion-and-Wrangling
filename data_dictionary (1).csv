@@ -1,0 +1,13 @@
+column,type,description,example
+order_id,string,Unique identifier for each order,O100000
+order_date,date,Date the order was placed (mixed formats in raw),2024-05-28
+customer_id,string,Anonymous customer identifier,C0185
+customer_email,string,Customer email address (may be missing),c0185@example.com
+region,category,Sales region: North/South/East/West,North
+channel,category,Sales channel: Online/Retail/Partner,Online
+sku,string,Product stock keeping unit,SKU-001
+product_name,string,Human-readable product name,Widget A
+unit_price,float,List price per unit in USD,19.99
+quantity,int,Units ordered,3
+discount,float,Fractional discount applied (0–1),0.10
+revenue,float,Net revenue = quantity * unit_price * (1 - discount),53.97
